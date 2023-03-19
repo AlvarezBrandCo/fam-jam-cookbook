@@ -1,0 +1,26 @@
+{
+  "name": "famjam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js --ignore client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@reduxjs/toolkit": "^1.9.2",
+    "airtable": "^0.11.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "contentful": "^9.1.34",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "description": ""
+}
